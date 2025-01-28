@@ -1,2 +1,5 @@
 # zserio-sqlite3
-SQLite3 amalgamation used by Zserio
+
+Official SQLite3 amalgamation with customized CMakeLists.txt designed to be used by Zserio.
+
+The sources are downloaded from https://www.sqlite.org/download.html.
