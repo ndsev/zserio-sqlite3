@@ -7,7 +7,7 @@ project(sqlite3)
 
 add_library(SQLite3 sqlite3.c sqlite3.h)
 
-target_include_directories(SQLite3 PUBLIC SYSTEM ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(SQLite3 SYSTEM PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 target_compile_definitions(SQLite3 PRIVATE SQLITE_ENABLE_FTS4 SQLITE_ENABLE_FTS5)
 
